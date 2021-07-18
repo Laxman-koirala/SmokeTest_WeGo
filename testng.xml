@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "Suite" parallel = "false">
+
+	<test name ="Test">
+	<parameter name = "platformName" value="Android"/>
+	<parameter name = "deviceName" value="CPH1729"/>
+	<parameter name = "udid" value="S8KBRK8SYTI7INEY"/>
+	
+	
+		<classes>
+		
+		<class name ="com.qa.BaseTest"/>
+		
+		</classes>
+	</test>
+
+</suite>
